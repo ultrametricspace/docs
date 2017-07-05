@@ -9,11 +9,11 @@ The versions of Windows which are compatible with the client are: win7 sp1/win8/
 The client itself does not require any installation. Download and directly double-click AntSharesUI.exe to open the client. If there are any problems with the process, and the client cannot be used normally, please keep the client directory error.log file, and contact our technical staff to assist you in solving the problem.
 
 > [!Note]
-> Windows10 pre-version of the system requries installation [.NET Framework 4.6.2](https://www.microsoft.com/net/download/framework).
+> Pre-Windows 10 versions of operating system requries installation of [.NET Framework 4.6.2](https://www.microsoft.com/net/download/framework).
 
 ### Synchronize
 
-The client must be synchronized fully before use. That is, the client interface on both sides of the lower left corner, maintains the same value and the steady increase in speed.
+The client must be synchronized fully before use. The blockchain is fully synchronized when the two numbers on the bottom-left corner of the client interface match and steadily increase at a slow speed.
 
 ![image](http://docs.antshares.org/images/gui/a.png)
 
@@ -39,7 +39,7 @@ Account information includes: address, private key, public key, type.
 
 (3) Private key: A 256-bit random number, kept by the user and not known publicly, represents the user account ownership and the ownership of the assets within the account.
 
-(4) Public key: Each private key has a match with the public key (Note: public key, and private key information can be viewed by right clicking on the address.)
+(4) Public key: Each private key matches to a unique public key (Note: public key, and private key information can be viewed by right clicking on the address.)
 
 > [!Important]
 >
@@ -236,7 +236,7 @@ The remarks for the transcation can be found on the broswer.
 
 ## Advanced
 
-### Offline synchronous packet
+### Offline synchronization packet
 
 **Download**
 
@@ -252,7 +252,7 @@ Unzip the packet and put it in the folder, as shown in the figure below:
 
 **Sync**
 
-Open the client,and you will see that the client is in sync with the super fast speed. As shown in the figure below:  
+Open the client and you will see that the client syncing with a super fast speed. As shown in the figure below:  
 
 ![](~/images/gui/2017-07-04_12-07-35.png)
 
@@ -266,13 +266,13 @@ When synchronized to a certain degree, the file (chain.acc) will disappear and t
 
 
 
-### Extractation of AntCoin
+### Redemption of AntCoin
 
-AntCoin are generated with each new block, and will be recorded to the address of holders AntShares. (The number within the brackets of the balance of assets, is the number of AntCoins to be claimed) At any time, the AntShares stock holder can initiate a claim, to redeem these AntCoins to the corresponding address of the AntShares. At the moment, only the PC version of the client, has the ability to execute the function of extracting AntCoins.
+AntCoin are generated with each new block, and will be recorded on the address of AntShares holders. (The number within the brackets of the balance of assets, is the number of AntCoins to be claimed) At any time, the AntShares holder can initiate a claim, to redeem these AntCoins to the corresponding address of the AntShares. At the moment, only the PC version of the client has the ability to execute the function of redeeming AntCoins.
 
 The specific steps are:
 
-(1) Transfer all the AntShares stocks within the wallet using a transfer operation. ( It is possible to send the AntShares straight to the current address) Once the claim for the AntCoins is settled, the AntCoins can be withdrawn. (Refer to the white paper for technical explanatin of this process).
+(1) Transfer all the AntShares within the wallet using a transfer operation. ( It is possible to send the AntShares straight to the current address) Once the claim for the AntCoins is settled, the AntCoins can be withdrawn. (Refer to the white paper for technical explanatin of this process).
 
 (2) Click `````````````````````
 
